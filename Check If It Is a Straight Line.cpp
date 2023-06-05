@@ -5,8 +5,8 @@ public:
     int y = coordinates[1][1]-coordinates[0][1];
     for (int i=2;i<coordinates.size();i++){
         if ((coordinates[i][1]-coordinates[i-1][1])*x!=(coordinates[i][0]  -coordinates[i-1][0])*y) 
-        return false;
+            return false;
         }
-        return true;
+     return true;
     }
 };
