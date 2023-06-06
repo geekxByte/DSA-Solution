@@ -15,7 +15,6 @@ private:
         int maxi=-1e8;
         int value;
         for(int d1=-1;d1<=1;d1++){
-            //int value=0;
             for(int d2=-1;d2<=1;d2++){
                 if(j1==j2)
                     value=grid[i][j1]+solve(i+1,j1+d1,j2+d2,r,c,grid,dp);
