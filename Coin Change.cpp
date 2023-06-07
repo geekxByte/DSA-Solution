@@ -1,4 +1,4 @@
-#include <vector>
+#include<vector>
 long solve(int idx,int* denominations,int value,vector<vector<long>>&dp){
     if(idx==0){
         return (value%denominations[idx]==0);
