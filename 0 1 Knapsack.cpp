@@ -1,6 +1,6 @@
 #include <bits/stdc++.h> 
 int solve(int idx,vector<int>&weight,vector<int>&value,int maxWeight,vector<vector<int>>&dp){
-  if (idx == 0) {
+  if (idx==0) {
 	  if(weight[idx]<=maxWeight)
     		return value[0];
       else return 0;
