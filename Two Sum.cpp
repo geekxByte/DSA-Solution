@@ -3,7 +3,7 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
        int n = nums.size();
         vector<pair<int,int>> ans {};
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             ans.push_back(make_pair(nums[i], i));
         }
         sort(ans.begin(), ans.end());
