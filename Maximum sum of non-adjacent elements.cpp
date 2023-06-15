@@ -7,8 +7,8 @@ int maximum(int idx,vector<int>&nums,vector<int>&dp){
     if(dp[idx]!=-1)
         return dp[idx];
     int select=nums[idx]+maximum(idx-2,nums,dp);
-    int notselect=maximum(idx-1,nums,dp);
-    return dp[idx]=max(select,notselect);
+    int notSelect=maximum(idx-1,nums,dp);
+    return dp[idx]=max(select,notSelect);
 }
 int maximumNonAdjacentSum(vector<int> &nums){
     int n=nums.size();
