@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     vector<int> findDuplicates(vector<int>& nums) {
         vector<int> ans;
         map<int,int> mpp;
