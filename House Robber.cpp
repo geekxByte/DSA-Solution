@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int rob(vector<int>& nums) {
         int n=nums.size();
         int prev=nums[0];
