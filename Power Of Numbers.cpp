@@ -1,5 +1,5 @@
 class Solution{
-    public:
+    public: 
     long long power(int N,int R)
     {
         if(R==0) return 1;
