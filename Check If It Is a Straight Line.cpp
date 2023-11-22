@@ -1,5 +1,5 @@
 class Solution {
-public: 
+public:  
     bool checkStraightLine(vector<vector<int>>& coordinates) {
     int x = coordinates[1][0]-coordinates[0][0];
     int y = coordinates[1][1]-coordinates[0][1];
