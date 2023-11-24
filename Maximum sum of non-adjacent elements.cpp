@@ -1,6 +1,6 @@
 #include <bits/stdc++.h> 
 int maximum(int idx,vector<int>&nums,vector<int>&dp){
-    if(idx==0)
+    if(idx==0) 
         return nums[idx];
     if(idx<0)
         return 0;
