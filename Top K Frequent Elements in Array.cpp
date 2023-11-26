@@ -5,7 +5,7 @@ class Solution {
         unordered_map<int,int> mp;
         priority_queue<pair<int,int>> pq;
         
-        for(auto i: nums)
+        for(auto i: nums) 
         {
             mp[i]++;
         }
