@@ -1,5 +1,5 @@
 class Solution {
-public: 
+public:  
     int solve(vector<int>& arr,int idx,int n,int &maxi,int mul,vector<vector<int>>&dp){
         if(idx>=n)
             return 0;
