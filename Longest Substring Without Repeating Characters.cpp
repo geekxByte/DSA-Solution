@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int lengthOfLongestSubstring(string s) {
         int i=0,j=0,maxi=INT_MIN;
         unordered_map<char,int> mpp;
