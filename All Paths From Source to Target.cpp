@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     void dfs(int node,vector<vector<int>>& graph,vector<vector<int>>& ans,vector<int> temp,int d){
         //vis[node]=1;
         temp.push_back(node);
