@@ -5,7 +5,7 @@ private:
     static bool cmp(pair<int,pair<int,int> > &a,pair<int,pair<int,int> >&b){
         return a.second.second<b.second.second;
     }
-public:
+public: 
     vector<int> maxMeetings(int N,vector<int> &S,vector<int> &F){
         vector<pair<int,pair<int,int> > > pairs;
         vector<int> ans;
