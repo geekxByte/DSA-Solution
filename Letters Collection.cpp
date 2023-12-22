@@ -1,7 +1,7 @@
 // User function Template for C++
 
 class Solution{
-public:
+public: 
     vector<int> matrixSum(int n, int m, vector<vector<int>> mat, int q, vector<int> queries[])
     {
         int dx1[8]={-1,-1,-1,0,0,1,1,1};
