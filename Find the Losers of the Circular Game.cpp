@@ -1,5 +1,5 @@
 class Solution {
-public: 
+public:  
     vector<int> circularGameLosers(int n, int k) {
         int chk[n+1];
         for(int i=0;i<=n;i++)
