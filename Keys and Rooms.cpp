@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         int v=rooms.size();
         vector<int> adj[v];
