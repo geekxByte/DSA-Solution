@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     void solve(TreeNode* root,map<int,int>& mpp){
         if(root==NULL)
             return;
