@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int minFlips(int a, int b, int c) {
         int cnt=0;
         while(a>0 || b>0 || c>0)
