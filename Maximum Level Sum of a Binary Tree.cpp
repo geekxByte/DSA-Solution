@@ -3,7 +3,7 @@ public:
     int maxLevelSum(TreeNode* root) {
         int ans,lvl=0,maxi=INT_MIN;
         queue<TreeNode*> q;
-        q.push(root);
+        q.push(root); 
         while(!q.empty()){
             int n=q.size();
             int sum=0;
