@@ -2,7 +2,7 @@ class Solution{
 public:
     string printMinNumberForPattern(string S){
         // code here 
-        string ans="";
+        string ans=""; 
         vector<char>v;
         for(int i=0;i<=S.size();i++) v.push_back(i+1+'0');
         for(int i=1;i<v.size();++i){
