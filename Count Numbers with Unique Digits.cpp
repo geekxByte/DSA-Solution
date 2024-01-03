@@ -1,7 +1,7 @@
 class Solution { 
 private:
     int backtrack(vector<bool>& chosen, int k, int n) {
-        
+         
         if (k < 1)
             return 1;
 
