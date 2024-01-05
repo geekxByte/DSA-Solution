@@ -1,5 +1,5 @@
 class Solution{   
-public:
+public: 
     string printMinNumberForPattern(string S){
         // code here 
         string ans=""; 
