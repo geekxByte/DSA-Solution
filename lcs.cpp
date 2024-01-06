@@ -1,6 +1,5 @@
 class Solution {
-
-public:
+public: 
     int longestCommonSubsequence(string text1, string text2) {
         int n=text1.size();
         int m=text2.size();
