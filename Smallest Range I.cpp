@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int smallestRangeI(vector<int>& nums, int k) {
         sort(nums.begin(),nums.end());
         int diff;
