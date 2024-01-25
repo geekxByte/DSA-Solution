@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
    int binarySearch(vector<pair<int, pair<int, int>>>& jobs, int index) {
     int low = 0, high = index - 1;
 
