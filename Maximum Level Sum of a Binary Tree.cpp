@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int maxLevelSum(TreeNode* root) {
         int ans,lvl=0,maxi=INT_MIN;
         queue<TreeNode*> q;
