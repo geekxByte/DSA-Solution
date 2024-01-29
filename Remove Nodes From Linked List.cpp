@@ -9,7 +9,7 @@
  * };
  */
 class Solution {
-public:
+public: 
     ListNode* reverse(ListNode* head){
         ListNode* prev=NULL;
         ListNode* curr=head;
