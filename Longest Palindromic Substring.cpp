@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     string longestPalindrome(string s) {
         int ls=s.size();
         int dp[ls+5][ls+5];
