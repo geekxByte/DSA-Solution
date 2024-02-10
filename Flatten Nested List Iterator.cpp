@@ -1,5 +1,5 @@
 class NestedIterator {
-private:  
+private:   
     std::vector<int> flattened;
     int index;
     
