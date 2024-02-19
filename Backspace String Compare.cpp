@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool backspaceCompare(string s, string t) {
         stack<int> s1,s2; 
         for(auto ch: s){
