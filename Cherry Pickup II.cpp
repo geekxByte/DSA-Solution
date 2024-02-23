@@ -1,5 +1,5 @@
 class Solution {
-private:
+private: 
     int solve(int i,int j1,int j2,int r,int c,vector<vector<int>>& grid,
     vector<vector<vector<int>>>&dp){
         if(i<0 || j1<0 || j1>=c || j2<0|| j2>=c)
